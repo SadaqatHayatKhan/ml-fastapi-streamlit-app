@@ -13,9 +13,9 @@ This document will contain instructions on setting up MLflow and screenshots of 
 
 2.  **Start the MLflow tracking server:**
     This command tells MLflow to store run data in a local SQLite database (`mlflow.db`) and artifacts in a local directory (`mlruns`).
-    ```bash
-    mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns --host 0.0.0.0 --port 5000
-    ```
+```bash
+mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns --host 0.0.0.0 --port 5000
+```
     If port 5000 is busy, you can change it (e.g., `--port 5001`).
 
 3.  **Configure your Training Environment (Notebook/Script):**

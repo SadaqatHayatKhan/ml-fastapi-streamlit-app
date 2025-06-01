@@ -14,7 +14,7 @@ app = FastAPI(
 # Model loading
 # Ensure this path is correct relative to where you run uvicorn
 # If you run uvicorn from the 'backend' directory, this path is correct.
-MODEL_PATH = "../ml/model.pkl" 
+MODEL_PATH = "ml/model.pkl" 
 
 # Check if the model file exists
 if not os.path.exists(MODEL_PATH):
