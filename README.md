@@ -25,6 +25,11 @@ ml_app_assignment/
 - MLflow for experiment tracking
 - Cloud deployment ready
 
+## Live URLs: 
+Backend : http://54.147.177.128:8000/docs
+Frontend : http://54.147.177.128:8501/
+
+
 ## Setup Instructions
 
 1. Create a virtual environment:
